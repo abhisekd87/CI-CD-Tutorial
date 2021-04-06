@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Account List" icon-name="standard:Accounts">
+        <lightning-layout vertical-align="centre">
+            <lightning-layout-item padding="around-small">
+                <lightning-input label="Account Name" value={searchAccount} onchange={handleSearch}></lightning-input>
+            </lightning-layout-item>
+        </lightning-layout>
+        <lightning-layout vertical-align="centre">
+            <template if:true={accounts}>
+                <lightning-layout-item item padding="around-small">
+                    <template for:each={accounts} for:item="account" for:index="index">
+                        <c-accoun-details key={account.Id} account={account}></c-accoun-details>
+                       <!--<lightning-layout-item key={account.Id}>
+                            <p>{account.Name}</p>
+                            <p>
+                               {account.Phone}
+                            </p>
+                        </lightning-layout-item>-->
+                    </template>
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </lightning-card>
+    
+</template>

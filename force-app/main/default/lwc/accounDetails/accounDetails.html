@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title={account.Name} icon-name="standard:Account">
+        <lightning-layout vertical-align="centre">
+            <lightning-layout-item padding="around-small">
+                <p>
+                    <lightning-formatted-text value={account.Name}>                      
+                    </lightning-formatted-text>
+                </p>
+                <p>
+                    <lightning-formatted-phone value={account.Phone}></lightning-formatted-phone>
+                </p>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+
+    
+</template>

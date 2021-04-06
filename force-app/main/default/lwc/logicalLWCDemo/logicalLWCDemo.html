@@ -1,0 +1,43 @@
+<template>
+    <lightning-card title='logical operations' icon-name="custom:custom4">
+        <lightning-layout vertical-align="centre">
+            <lightning-layout-item padding="around-small">
+                {greetings}
+            </lightning-layout-item>
+        
+            <template if:true={message}>
+                <!--lightning-layout vertical-align="centre"-->
+                    <lightning-layout-item padding="around-small">
+                     {message}
+                    </lightning-layout-item>
+                <!--/lightning-layout-->
+            </template>
+            <lightning-layout-item padding="around-small">
+                <template for:each={contacts} for:item="contact" for:index="index">
+                    <p key={contact.Id}>{contact.Name} <br/>
+                        {contact.Title}
+                    </p>
+
+
+                </template>
+            </lightning-layout-item>
+            <template if:true={results}>
+                <!--lightning-layout vertical-align="centre"-->
+                    <lightning-layout-item padding="around-small">
+                        <template for:each={results} for:item="item" for:index="index">
+                            {item.key}=>{item.value} &nbsp;&nbsp;
+                        </template>
+                    </lightning-layout-item>
+                <!--/lightning-layout-->
+            </template>
+            <template if:true={strngValue}>
+                <!--lightning-layout vertical-align="centre"-->
+                    <lightning-layout-item padding="around-small">
+                        i have some valies
+                    </lightning-layout-item>
+                <!--/lightning-layout-->
+            </template>
+            
+        </lightning-layout>
+    </lightning-card>
+</template>

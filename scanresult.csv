@@ -1,0 +1,7 @@
+"Problem","File","Severity","Line","Column","Rule","Description","URL","Category","Engine"
+"1","E:\sfdc_prac\Lightning\NewLearnLightning\force-app\main\default\lwc\accounDetails\accounDetails.js","2","5","5","files-must-compile","Parsing error: Unexpected character '@'",,"Scanner Internal","eslint"
+"2","E:\sfdc_prac\Lightning\NewLearnLightning\force-app\main\default\lwc\accountList\accountList.js","2","7","5","files-must-compile","Parsing error: Unexpected character '@'",,"Scanner Internal","eslint"
+"3","E:\sfdc_prac\Lightning\NewLearnLightning\force-app\main\default\lwc\helloWorld\helloWorld.js","2","5","11","files-must-compile","Parsing error: Unexpected token =",,"Scanner Internal","eslint"
+"4","E:\sfdc_prac\Lightning\NewLearnLightning\force-app\main\default\lwc\logicalLWCDemo\logicalLWCDemo.js","2","7","5","files-must-compile","Parsing error: Unexpected character '@'",,"Scanner Internal","eslint"
+"5","E:\sfdc_prac\Lightning\NewLearnLightning\force-app\main\default\lwc\ltngRecForm\ltngRecForm.js","2","5","5","files-must-compile","Parsing error: Unexpected character '@'",,"Scanner Internal","eslint"
+"6","E:\sfdc_prac\Lightning\NewLearnLightning\force-app\main\default\lwc\simpleEvent\simpleEvent.js","2","5","5","files-must-compile","Parsing error: Unexpected character '@'",,"Scanner Internal","eslint"
